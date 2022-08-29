@@ -1,0 +1,14 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "calculator built with tailwindcss and javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "Meshach Arinze",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.1"
+  }
+}
